@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Omar Diankha</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+       <script src="js/Chart.min.js"></script>
+
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  </head>
+
+  <body>
+   
+   <div class="header">
+    <div class="button_accueil"><a href="#accueil">Accueil</a></div>
+    <div class="block">
+      <div><a href="#apropos">À propos</a></div>
+      <div><a href="#competences">Compétence</a></div>
+      <div> <a href="#projets">  Projet </a></div>
+      <!--<div>Portfolio</div>-->
+      <div> <a href="#contact"> Contact </a></div>
+  </div>
+   </div>
+   <section id="accueil">
+    <div class="mon_image">
+      <img src = "./images/bil1.jpg"/>
+    </div>
+    <div class="item" data-aos="zoom-in" data-aos-delay="300">
+      <div class="item_text_top">Bonjour, je suis</div>
+      <div class="item_text_middle"  data-aos="fade-up" data-aos-delay="600">Omar Diankha</div>
+      <div class="item_text_bottom">Je suis passioné par les <strong>mathématiques</strong>, 
+        la <strong>data science</strong> et le <strong>développement web</strong></div>
+       
+    </div>
+    
+  </section>
+  <section id="apropos" data-aos="fade-up">
+       <div class="toogle"><span class="toogle_span">X</span> </div>
+      <div class="apropos_titre">À propos</div>
+      <div id="master"><img src="./images/diplome.jpg"></div>
+      <div  id="datascience"><img src="./images/datascientest.jpg"></div>
+      <div id="openC1"><img src="./images/openjavascript.png"></div>
+      <div id="openC2"><img src="./images/opensqlphp.png"></div>
+      <div id="ds1"><img src="./images/sklearn.png"></div>
+      <div id="ds2"><img src="./images/webscraping.png"></div>
+      <div class="section_item">
+      <div class="apropos_check">
+        <div class="radio">
+          <div class="radio_experience">
+        <label class="chechedExp">Expériences
+          <input type="radio" name="check_mee" id="experiences" checked>
+        </label>
+      </div>
+        <div class="radio_formation">
+        <label class="chechedForm">Formation 
+          <input type="radio" name="check_mee" id="formation">
+        </label>
+      </div>
+        <div class="radio_diplome">
+        <label class="chechedDip">Certificats
+          <input type="radio" name="check_mee" id="diplome">
+        </label>
+      </div>
+      </div>
+      </div>
+      <div class="apropos_text">
+      
+        <div class="apropos_presentation">
+          Animé par la curiosité d'explorer les horizons infinis de la tech, 
+          je suis actuellement à la recherche d'une opportunité excitante
+           pour mon premier boulot en tant que développeur web. Mon parcours académique 
+           en data science et en mathématiques m'a doté d'une solide capacité d'analyse et de 
+           résolution de problèmes, tandis que mon amour pour la technologie m'a poussé à plonger
+            dans le monde du développement web.
+        </div>
+
+        <div class="apropos_cv">
+          <div class="radio_experience_item">
+           <div class="experience">
+            <div class="annee">
+              <div class="annee_item">2023</div>
+              <div class="annee_item">2022</div>
+              <div class="annee_item">2019</div>
+            </div>
+            
+              <div class="poste">
+              <div class="job"><span class="experience_bottom">Stagiaire, Datascientest</span>
+                <ul class="job_item">
+                  <li>Analyse de données</li>
+                  <li>Visualisation de données</li>
+                  <li>Machine/Deep learning</li>
+                </ul>   
+              </div>
+              <div class="job"><span class="experience_bottom">Doctorant, Université Paris 8 </span>
+                <ul class="job_item">
+                  <li>Cryptographie</li>
+                  <li>Attaques par cannaux cachés</li>
+                  <li>Masquage booléen</li>
+                </ul>
+              </div>
+              <div class="job"><span class="experience_bottom">Stagiaire, Télécom ParisTech</span>
+                <ul class="job_item">
+                  <li>Méthodologie de recherche</li>
+                  <li>Cryptanalyse</li>
+                  <li>Modélisation mathématique</li>
+                </ul>
+            </div>
+              </div>
+              
+          </div>
+        </div>
+        <div>
+          <div class="radio_formation_item">
+          <div class="experience">
+           
+            <div class="annee">
+              <div class="annee_item">2023</div>
+              <div class="annee_item">2022</div>
+              <div class="annee_item">2019</div>
+            </div>
+            
+              <div class="poste">
+              <div class="job"><span class="experience_bottom"> OpenClassrom, Datascientest</span>
+                <ul class="job_item">
+                  <li>Data science</li>
+                  <li>Développement web</li>
+                  <li>Machine/Deep learning</li>
+                </ul>   
+              </div>
+              <div class="job"><span class="experience_bottom"> Doctorant, Université Paris 8  </span>
+                <ul class="job_item">
+                  <li>Cryptographie</li>
+                  <li>Codes correcteurs d'erreur</li>
+                  <li>Html/CSS</li>
+                </ul>
+              </div>
+              <div class="job"><span class="experience_bottom"> Master mathématiques (U.Paris8)</span>
+                <ul class="job_item">
+                  <li>Cryptographie</li>
+                  <li>Statistiques/Probabilités</li>
+                  <li>Sécurité et Réseaux</li>
+                </ul>
+            </div>
+              </div>
+            
+          </div>
+        </div><!--fin-->
+
+        <div class="radio_diplome_item">
+         <div class="image_diplom">
+          <div class="image_diplom_item" id="a"><img src="./images/diplome.jpg"></div> 
+          <div class="image_diplom_item" id="b"><img src="./images/datascientest.jpg"></div>
+          <div class="image_diplom_item" id="c"><img src="./images/openjavascript.png"></div> 
+          <div class="image_diplom_item" id="d"><img src="./images/opensqlphp.png"></div> 
+          <div class="image_diplom_item" id="e"><img src="./images/sklearn.png"></div> 
+          <div class="image_diplom_item" id="f"><img src="./images/webscraping.png"></div> 
+         </div>
+        </div><!--fin-->
+
+        </div>
+        
+      </div>
+  
+
+    </div>
+  </section>
+  <section id="competences" data-aos="fade-up">
+    <div class="competences_titres">Compétences</div>
+    <div class="competences_text">
+      
+      <div class="competences_framework">
+        <div class="framework"><span class="experience_bottom">Développement web</span>
+          <ul class="framework_item">
+            <li>React /Vite Js</li>
+            <li>Symfony</li>
+            <li>MySQL</li>
+          </ul>
+      </div>
+        <div class="framework"><span class="experience_bottom">Data science</span>
+          <ul class="framework_item">
+            <li>Scikit-Learn </li>
+            <li>TensorFlow</li>
+            <li>Pandas</li>
+          </ul>
+      </div>
+     
+    <div class="framework"><span class="experience_bottom">Outil collaboratif</span>
+      <ul class="framework_item">
+        <li>Git & Github</li>
+        <li>Overleaf</li>
+        <li>Google collab</li>
+      </ul>
+  </div>
+      </div>
+      <div class="competences_langages">
+        <canvas id="charts"></canvas>
+      </div>
+    </div>
+  </section>
+  <section id="projets" data-aos="fade-up">
+    <div class="projets_titre">Projets</div>
+    <div class="projets_item">
+      <div class="projet_quiz">
+        <div class="projet_name">Quiz <span style="font-size: 13px;"> (personnel)</span></div>
+        <div class="projet_description"><span style="background: yellow; color:black">JS</span> Quiz est un projet de quiz interactif 
+          conçu pour tester les connaissances et les compétences dans divers domaines.
+        </div>
+        <div class="projet_outil">
+          <div class="projet_outil_item">JavaScript
+          </div>
+          <div class="projet_outil_item">ViteJs</div>
+        </div>
+      </div>
+      <div class="projet_site"> 
+        <div class="projet_name">Fatimar<span style="font-size: 13px;"> (personnel)</span></div>
+
+        <div class="projet_description">Ce projet est un  site e-commerce a été conçu de A à Z pour offrir
+           une expérience de magasinage moderne, conviviale et une facilité d'utilisation
+          </div>
+          <div class="projet_outil">
+           <div class="projet_outil_item">JavaScript
+          </div>
+          <div class="projet_outil_item">PHP
+          </div>
+          <div class="projet_outil_item">MySQL
+          </div>
+        </div>
+      </div>
+      <div class="projet_compagny">
+        <div class="projet_name">Entreprise
+          <span style="font-size: 13px;">(personnel)</span></div>
+          <div class="projet_description">Ce projet est un  site vitrine conçu pour mettre en valeur
+            les produits, les services et les valeurs de l'entreprise de manière attrayante 
+            et convaincante
+           </div>
+           <div class="projet_outil">
+            <div class="projet_outil_item">JavaScript
+           </div>
+           <div class="projet_outil_item">GSAP
+           </div>
+           <div class="projet_outil_item">AOS
+           </div>
+         </div>
+    </div>
+  </section>
+<section id="contact">
+  <div class="contact_item" data-aos="zoom-in" data-aos-delay="300">
+    <div class="contact_text_intro">
+      Prêt à travailler ensemble ?
+    </div>
+    <div class="contacter_moi"> <div class="contacter_moi_top"> Contactez moi.</div>
+      <div class="contact_bottom">
+        Je serais ravi de discuter de vos projets et de collaborer avec vous.
+         Je suis toujours ouvert aux nouvelles
+          opportunités passionnantes !
+      </div>
+      <div class="mes_contacts">
+         <div class="email"><i class="fas fa-envelope"></i> omar1.diankha@gmail.com</div> 
+         <div class="LinkedIn"><a href="https://www.linkedin.com/in/omar-diankha-9081161a7/"> 
+          <i class="fab fa-linkedin"></i></i> LinkedIn </a></div>
+         <div class="Github"> <a href="https://github.com/Bilimh"> 
+          <i class="fab fa-github"></i> Github </a> </div>
+         <div class="phone"><i class="fas fa-phone"></i> +33 7.68.03.13 </div>
+        </div>
+       
+    </div>
+  </div>
+</section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
